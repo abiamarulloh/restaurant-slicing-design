@@ -1,0 +1,43 @@
+@import './colors.css';
+@import './fonts.css';
+@import './reset.css';
+
+/*  Search bar */
+.form-control-search {
+    width: 322px;
+    height: 56px;
+    border-radius: 12px;
+    font-family: Poppins-Medium;
+    color: var(--light-grey);
+    background-color: var(--white);
+    border: none;
+    outline-style: none;
+    position: relative;
+    padding-left: 65px;
+}
+
+.btn-search {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: 16px;
+    height: auto;
+    border: none;
+}
+/* Search bar */
+
+/* Button Purple */
+.btn-purple {
+    width: 104px;
+    height: 56px;
+    border-radius: 12px;
+    font-family: Poppins-Medium;
+    background-color: var(--light-purple);
+    color: var(--purple);
+}
+
+.btn-purple:hover {
+    background-color: var(--purple);
+    color: var(--light-purple);
+}
+/* Button Purple */
