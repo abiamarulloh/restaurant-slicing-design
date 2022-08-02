@@ -41,3 +41,25 @@
     color: var(--light-purple);
 }
 /* Button Purple */
+
+/* Button Yellow */
+.btn-orange {
+    width: fit-content;
+    height: 56px;
+    border: 0;
+    border-radius: 12px;
+    font-family: Poppins-Medium;
+    padding: 16px 28px;
+    background-color: var(--orange);
+    color: var(--dark);
+}
+
+.btn-orange svg {
+    background: none;
+}
+
+.btn-orange:hover {
+    background-color: var(--orange);
+    color: var(--dark);
+}
+/* Button Yellow */
