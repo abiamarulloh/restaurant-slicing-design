@@ -147,3 +147,120 @@
     margin-left: 6px;
 }
 /* Carousel close */
+
+
+/* Special benefit */
+.special-benefit {
+    margin-top: 120px;
+}
+
+.special-benefit  .header  {
+    text-align: center;
+}
+
+.special-benefit .header h3 {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--purple);
+}
+
+.special-benefit .header h2 {
+    font-family: Poppins-Medium;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--dark);
+}
+
+.special-benefit .body {
+    margin-top: 41px;
+}
+
+.special-benefit .card {
+    border: none;
+    width: 100%;
+    border-radius: 24px;
+    height: 100%;
+}
+
+.special-benefit .col {
+    width: 315px;
+    height: 347px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    border: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.special-benefit .col:first-child {
+    margin-left: 0;
+}
+
+.special-benefit .card-icon {
+    width: 80px;
+    height: 80px;
+    background: rgba(253, 200, 134, 0.15);
+    border-radius: 54px;
+    text-align: center;
+    line-height: 80px;
+    margin: 24px auto;
+}
+
+.special-benefit .card-icon svg {
+    background: none;
+}
+
+.special-benefit .card-title {
+    font-family: Poppins-Medium;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: var(--dark);
+}
+
+.special-benefit .card-description {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--dark-grey);
+}
+
+.special-benefit .card-footer {
+    width: 100%;
+    height: 72px;
+    border-radius: 12px 12px 24px 24px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+.special-benefit .card:hover .card-footer {
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+.special-benefit .card-footer svg {
+    background: none;
+}
+
+.special-benefit .card-footer span {
+    background: none;
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--dark);
+}
+/* Special benefit */
+
+/*  Popular restaurant Open */
+.popular-restaurant {
+    margin-top: 120px;
+}

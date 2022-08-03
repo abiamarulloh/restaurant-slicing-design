@@ -1,3 +1,4 @@
+// Owl Carousel Open
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
     margin: 40,
@@ -6,3 +7,4 @@ $(document).ready(function(){
     center: true,
   });
 });
+// Owl Carousel Close
