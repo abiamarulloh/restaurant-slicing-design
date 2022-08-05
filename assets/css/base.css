@@ -9,6 +9,181 @@
     background-color: var(--base-color);
 }
 
+/* Rating Open */
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating-count {
+    font-family: Poppins-SemiBold;
+    color: var(--yellow);
+    margin-left: 3px;
+}
+
+.rating-sum {
+    font-family: Poppins-Regular;
+    color: var(--dark-grey);
+    margin-left: 4px;
+}
+
+.restaurant-name {
+    font-family: Poppins-SemiBold;
+    color: var(--dark);
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 5px;
+}
+/* Rating Close */
+
+/* Card Landscape Open */
+.card-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.card.landscape {
+    position: absolute;
+    bottom: 24px;
+    width: 352px;
+    height: 131px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 260px 36px;
+    align-items: center;
+}
+
+.card.landscape .text-title {
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232631;
+    margin-top: 4px;
+    background: none;
+}
+
+.card.landscape .text-description {
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #656565;
+    margin-top: 4px;
+}
+
+.card.landscape .btn-action {
+    width: 36px;
+    height: 36px;
+    border: 0;
+    border-radius: 12px;
+    background-color: var(--orange);
+}
+
+.card.landscape svg {
+    background: none;
+}
+
+/* Card Landscape Close */
+
+
+/* Card Portrait Open */
+.card-section-chef {
+    position: relative;
+}
+
+.card.portrait {
+    position: absolute;
+    width: 179px;
+    height: 203px;
+    left: 433px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 25px rgba(102, 102, 102, 0.04);
+    border-radius: 24px;
+    padding: 30px 45px;
+    border: none;
+}
+
+.card.portrait svg, h2, p {
+    background: none;
+}
+
+.card.portrait .verified {
+    width: 80px;
+    height: 80px;
+    background: #FFF7ED;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.card.portrait .title {
+    font-family: Poppins-SemiBold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.card.portrait .description {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #656565;
+}
+/* Card Portrait Close */
+
+/* Card Landscape two column Open */ 
+.card.landscape.two-column {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 96px 174px;
+    grid-gap: 24px 12px;
+    height: auto;
+    left: -60px;
+    border:none;
+}
+
+.card.landscape.two-column img {
+    width: 96px;
+    height: 132px;
+}
+
+.card.landscape.two-column .title {
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #656565;
+}
+
+.card.landscape.two-column .description {
+    font-family: Poppins-Regular;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #232631;
+}
+
+.card.landscape.two-column .action {
+    font-family: Poppins-SemiBold;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FDC886;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 24px;
+    background: none;
+}
+/* Card Landscape two column Close */ 
+
+
 /* Header Open */
 .navbar {
     margin: 60px;
@@ -264,3 +439,200 @@
 .popular-restaurant {
     margin-top: 120px;
 }
+
+.popular-restaurant .section-1 .head-title {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--purple);
+}
+
+.popular-restaurant .section-1 .head-sub-title { 
+    font-family: Poppins-Medium;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--dark);
+}
+
+.popular-restaurant .section-1 .head-description {
+    width: 360px;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--dark-grey);
+    margin-top: 20px;
+    margin-bottom: 56px;
+}
+
+.popular-restaurant .section-2 {
+    width: 400px;
+    height: 475px;
+}
+
+.popular-restaurant .section-3 {
+    width: 214px;
+    height: 475px;
+    margin: 0 20px;
+}
+
+.popular-restaurant .section-4 {
+    width: 214px;
+    height: 475px;
+}
+/*  Popular restaurant close */
+
+/* Restaurant Near You Open */
+.restaurant-near-you {
+    margin-top: 120px;
+}
+
+.restaurant-near-you .header h3 {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--purple);
+}
+
+.restaurant-near-you .header h2 {
+    font-family: Poppins-Medium;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--dark);
+}
+
+.restaurant-near-you .dropdown {
+    display: flex;
+    align-items: center;
+    width: 252px;
+    height: 64px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    padding: 0 24px;
+    cursor: pointer;
+    float: right;
+}
+
+.restaurant-near-you .dropdown span {
+    background: none;
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: #656565;
+}
+
+.restaurant-near-you .dropdown svg {
+    background: none;
+}
+
+.restaurant-near-you .dropdown svg:first-child { 
+    margin-right: 6px;
+}
+
+.restaurant-near-you .body {
+    margin-top: 36px;
+}
+
+.restaurant-near-you .body img {
+    border-radius: 24px;
+}
+
+.restaurant-near-you .footer {
+    margin-top: 56px;
+}
+/* Restaurant Near You Close */
+
+/* Experts Chef Open */
+.experts-chef {
+    margin: 120px;
+}
+
+.experts-chef .header h3 {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--purple);
+}
+
+.experts-chef .header h2 {
+    font-family: Poppins-Medium;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--dark);
+}
+
+.experts-chef .body {
+    margin-top: 32px;
+}
+
+.experts-chef .body .item {
+    width: 596px;
+    height: 141px;
+    border-radius: 24px;
+    margin-bottom: 20px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.experts-chef .body .item:last-child {
+    margin-bottom: 0;
+ }
+
+
+.experts-chef .body .item:hover {
+  background: #FFFFFF;
+}
+
+.experts-chef .body .item .title {
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #656565;
+}
+
+.experts-chef .body .item .sub-title {
+    font-family: Poppins-Medium;
+    font-size: 22px;
+    line-height: 33px;
+    color: #232631;
+    margin-top: 6px;
+}
+
+.experts-chef .body .item  p {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #656565;
+    margin-top: 6px;
+}
+
+
+.experts-chef .body .item .icon-section span {
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #FDC886;
+    background: none;
+}
+
+.experts-chef .body .item .icon-section svg {
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #FDC886;
+    background: none;
+}
+
+.experts-chef .footer {
+    margin-top: 62px;
+}
+
+/* Experts Chef Close */
